@@ -389,3 +389,154 @@ section {
   text-decoration: none;
   color: #000;
 }
+@media (max-width: 1200px) {
+  .hotel_image {
+    object-fit: cover;
+    height: 50vh;
+    width: 100%;
+  }
+}
+@media (max-width: 1080px) {
+  .header_title {
+    font-size: 128px;
+  }
+  .header_title span {
+    font-size: 48px;
+    top: 85%;
+  }
+  .header_nav {
+    gap: 16px;
+    flex-wrap: wrap;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  .fairy-tail_slider,
+  .our-trip_slider {
+    height: 50vh;
+    width: 100%;
+  }
+  .fairy-tail_item img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .our-trip_slider img {
+    object-fit: cover;
+    width: 100%;
+  }
+  .fairy-tail_sec {
+    flex-direction: column;
+    width: 100%;
+  }
+  .fairy-tail_items {
+    width: 100%;
+    padding-left: 0;
+    padding: 0 8px;
+  }
+  .fairy-tail_text {
+    width: 100%;
+  }
+  .our-trip_container {
+    flex-direction: column;
+  }
+  .our-trip_content {
+    margin-left: 0;
+    align-items: center;
+  }
+  .container {
+    width: auto;
+  }
+  .our-trip_bookbutton {
+    margin: 32px 0;
+  }
+  .sec_title {
+    font-size: 80px;
+  }
+  .sec_title span {
+    font-size: 32px;
+  }
+  .our-trip_title span {
+    top: 90px;
+    left: 180px;
+  }
+  .hotel_content {
+    flex-direction: column;
+  }
+  .hotel_leftside {
+    padding: 0 8px;
+  }
+  .hotel_leftside_gallery li {
+    width: auto;
+  }
+  .hotel_leftside_gallery {
+    gap: 16px;
+    justify-content: center;
+  }
+  .price_content {
+    width: 100%;
+    padding: 0 8px;
+  }
+  .price_list {
+    flex-direction: column;
+  }
+  .price_list li {
+    width: 100%;
+  }
+  .hotel_title span {
+    display: none;
+  }
+  .feedback_pos {
+    flex-direction: column;
+    gap: 16px;
+  }
+  .feedback_img {
+    margin: 0;
+    object-fit: cover;
+    height: 50vh;
+  }
+  .feedback_content {
+    width: 100%;
+  }
+
+  .footer_content {
+    flex-direction: column;
+  }
+}
+@media (max-width: 620px) {
+  .header_title {
+    font-size: 96px;
+  }
+  .header_title span {
+    font-size: 32px;
+  }
+
+  .header_nav {
+    justify-content: center;
+  }
+  .sec_title {
+    font-size: 64px;
+    text-align: center;
+  }
+  .sec_title span {
+    font-size: 24px;
+  }
+  .our-trip_title span {
+    top: 70px;
+    left: 110px;
+  }
+  .fairy-tail_title span {
+    top: 50%;
+    left: 15%;
+  }
+}
+@media (max-width: 400px) {
+  .header_title {
+    font-size: 72px;
+  }
+  .header_title span {
+    font-size: 28px;
+    top: 80%;
+  }
+  .header_nav a {
+    font-size: 18px;
+  }
+}
