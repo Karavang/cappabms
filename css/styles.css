@@ -57,7 +57,7 @@ header {
   padding: 0;
 }
 .header {
-  background-image: url("/images/header-bg.jpg");
+  background-image: url(/images/header-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -347,7 +347,7 @@ section {
 }
 .footer {
   height: 100vh;
-  background-image: url("/images/footer-bg.jpg");
+  background-image: url(/images/footer-bg.jpg);
 }
 .footer_content {
   width: 100%;
@@ -361,7 +361,7 @@ section {
   font-size: 86px;
 }
 .footer_contacts {
-  background-image: url("../images/footer-contact-bg.png");
+  background-image: url(../images/footer-contact-bg.png);
   background-repeat: no-repeat;
   width: 356px;
   height: 527px;
